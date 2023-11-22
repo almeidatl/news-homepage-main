@@ -44,6 +44,14 @@ body{
 /* ===== Telas menores que 1000px ===== */
 
 @media (max-width:1000px){  
+
+    .menuOn{
+        display: block;
+    }
+    .menuOff{
+        display: none;
+    }
+
     .hero img{
         max-width: 100%;
     }
