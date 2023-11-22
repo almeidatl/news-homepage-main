@@ -33,16 +33,16 @@
 }
 
 html{
-    font-size: 15px;
+    font-size: 14px;
 }
 
 body{
-    height: 100vh;
+    
     font-family: var(--textFont);
 }
 
 section{
-    min-height: 300px;
+    min-height: 350px;
 }
 
 .center{
@@ -79,9 +79,13 @@ section{
 
 }
 
+main{
+    height: 100%;
+}
+
 .hero{
     position: relative;
-    height: 450px;
+    max-height: 300px;
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -155,7 +159,7 @@ section{
 
 aside.news{
     background-color: var(--VeryDarkBlue);
-    height: 100%;
+    
 }
 
 .news h2{
