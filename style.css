@@ -290,7 +290,7 @@ body{
     
     .hero{
         position: relative;
-        max-height: 300px;
+        max-height: min-content;
         display: flex;
         flex-direction: row;
         gap: 2rem;
@@ -362,10 +362,12 @@ body{
     
     .heroRight{
         max-width: 30%;
+        
     }
     
     .news{
         background-color: var(--VeryDarkBlue);
+        height: 100%;
         
     }
     
