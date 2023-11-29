@@ -52,6 +52,10 @@ body{
         display: none;
     }
 
+    #closeMenuIcon{
+        text-align: right;
+    }
+
     .mobileNav{
         width: 70%;
         height: 100vh;
@@ -59,8 +63,20 @@ body{
         position: fixed;
         top: 0;
         right: 0;
-        }
+        padding: 1rem;
+    }
+
+    .mobileNavList{
+        padding: 2rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
     
+    .mobileNavItem{
+
+    }
 
     .hero img{
         max-width: 100%;
